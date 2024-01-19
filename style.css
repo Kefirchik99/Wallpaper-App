@@ -7,14 +7,14 @@ body {
     background-color: rgb(243, 240, 235);
     color: #034216;
 }
-p {
-    font-size: xx-large;
+.intro {
+    font-size: 220%;
     font-weight: 400;
     font-family: 'Times New Roman', Times, serif;
     font-style: bold;
 }
 
-h1 {
+.the_top {
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(4, 99, 75);
@@ -23,5 +23,17 @@ h1 {
 ul {
     list-style-type: circle;
     font-size: larger;
-    font-weight: 600;
+    font-weight: 350;
+}
+.firstImage {
+    width: 65%;
+    height: auto;
+}
+.secondImage {
+    width: 65%;
+    height: auto;
+}
+.thirdImage {
+    width: 65%;
+    height: auto;
 }
