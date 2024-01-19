@@ -1,0 +1,27 @@
+head {
+
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(243, 240, 235);
+    color: #034216;
+}
+p {
+    font-size: xx-large;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+
+h1 {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(4, 99, 75);
+}
+
+ul {
+    list-style-type: circle;
+    font-size: larger;
+    font-weight: 600;
+}
