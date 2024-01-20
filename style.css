@@ -25,15 +25,44 @@ ul {
     font-size: larger;
     font-weight: 350;
 }
-.firstImage {
-    width: 65%;
+.firstImage, .secondImage, .thirdImage {
+    width: 45%;
     height: auto;
+    
+}
+.intro {
+    text-align: center;
+}
+#pictures {
+    /* padding: 10%; 
+    align-items: center;  WORK OUT HOW TO MAKE IT IN THE CENTER  
+    display: block;
+    margin-left: auto;
+    margin-right: auto; */
+
+}
+
+hr {
+    height: 5px;
+    background-color: black;
+}
+.firstImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .secondImage {
-    width: 65%;
-    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .thirdImage {
-    width: 65%;
-    height: auto;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption {
+text-align: center;
 }
