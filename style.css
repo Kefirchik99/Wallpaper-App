@@ -1,23 +1,47 @@
-head {
 
-}
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(243, 240, 235);
     color: #034216;
 }
+.first_part {
+    position: relative;
+    z-index: 1;
+}
+
+.first_part::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('Pics/BackGrnd-2.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3; /* Adjust the opacity as needed */
+    z-index: -1;
+}
+
 .intro {
     font-size: 220%;
     font-weight: 400;
     font-family: 'Times New Roman', Times, serif;
     font-style: bold;
     text-align: center;
+    margin-bottom: auto;
 }
 .underintro {
     text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+.arrows_down {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: auto;
 
+}
 .the_top {
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
@@ -26,32 +50,51 @@ body {
 }
 
 ul {
-    list-style-type: circle;
+    list-style-type:disc;
     font-size: larger;
     font-weight: 350;
+    text-align: left; 
 }
+
+
 .firstImage, .secondImage, .thirdImage {
     width: 45%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
-#pictures {
-    /* padding: 10%; 
-    align-items: center;  WORK OUT HOW TO MAKE IT IN THE CENTER  
-    display: block;
-    margin-left: auto;
-    margin-right: auto; */
-
 }
+
+.cogs, .cog_text {
+    text-align: center;
+}    
 
 hr {
     height: 5px;
-    background-color: black;
+    background-color: rgb(4, 99, 75);
 }
-
+.bottomhr {
+    border-top:groove;
+    border-radius: 5px; 
+    width: 24%;
+    transition: width 1s ease;
+}
+.bottomhr:hover {
+    width: 85%;
 }
 figcaption {
 text-align: center;
+}
+#factstart {
+    text-align: center;
+}
+
+#factstext {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: larger;
+margin-top: 3px;
+
+}
+#facthead {
+    margin-bottom: 10px;
 }
