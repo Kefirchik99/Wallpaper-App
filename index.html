@@ -21,7 +21,7 @@
     </p>  
     <hr>
     <div id="pictures">
-    <section>
+    <section class="pics">
         <figure>
         <img src="Pics/120870.jpg" class="firstImage" alt="spaceyspace">   
         <figcaption><u><em>Lovely space</u></em></figcaption>
@@ -55,12 +55,12 @@
             <li>Every day something new will be added!</li>
             <li>Dont forget to subscribe to us here!</li>
             <!-- add a link and make here clickable -->
-            <li>Check out some cool space facts below!</li>
+            <li>Check out some cool galaxy facts below!</li>
 
         </ul>
         </section>
         <hr class="bottomhr">
-<article>
+<article id="facts_list">
     <h2 id="factstart">8 Cool Facts About Galaxies</h2>
 <p>
     <h3 id="facthead"><u>1. Diversity of Galaxies</u></h3>
@@ -81,15 +81,38 @@
     <h4 id="factstext">Dark matter plays a crucial role in the formation and structure of galaxies. Though invisible, it constitutes a significant portion of a galaxy's mass, influencing its gravitational pull and overall dynamics.</h4>
 </p>
 </article>
-
 <hr>
-<form>  <!-- SET UP GOOGLE FORMS -->
-<fieldset>
-    
-    <legend>What type of galaxy do you like the most?</legend>
 
-    <!--create a form that will take in the types of galaxies and based on that will pick a background, maybe a JS element???-->
+<form id="galaxy_survey">
+    <h2>Galaxy Survey!</h2>  <!-- SET UP GOOGLE FORMS -->
+    <p><h3>lets see what type of galaxies you are into!</h3></p>
+ <fieldset id="purpose">
+    <legend>What would you use the pictures for?</legend>
+    <label for="choice1"><input id="choice1" type="radio" checked name="for_what" />My wallpaper</label>
+    <label for="choice2"><input id="choice2" type="radio"  name="for_what" />For fun</label>
+    <label for="choice3"><input id="choice3" type="radio"  name="for_what" />For a presentation</label>
+    <label for="choice4"><input id="choice4" type="radio"  name="for_what" />Dont know yet</label>
+ </fieldset>      
+<fieldset id="purpose">
+    <legend>What type of galaxy do you like the most?</legend>
+    <label for="galaxy_type1"><input  type="radio" checked name="what_type" id="galaxy_type1"/>Spiral</label>
+    <label for="galaxy_type2"><input  type="radio"  name="what_type" id="galaxy_type2"/>Elliptical</label>
+    <label for="galaxy_type3"><input  type="radio"  name="what_type" id="galaxy_type3"/>Peculiar</label>
+    <label for="galaxy_type4"><input  type="radio"  name="what_type" id="galaxy_type4"/>Irregular</label>
 </fieldset>
+<fieldset id="what_color">
+    <legend>What color do you prefer?</legend>
+    <label for="color_1"><input type="radio" name="color_type" id="color_1" checked>Greenish</label>
+    <label for="color_2"><input type="radio" name="color_type" id="color_2">Blueish</label>
+    <label for="color_3"><input type="radio" name="color_type" id="color_3">Purplish</label>
+    <label for="color_4"><input type="radio" name="color_type" id="color_4">Reddish</label>
+</fieldset>
+<fieldset>
+    <legend></legend>
+</fieldset>  
+
+
+<!--create a form that will take in the types of galaxies and based on that will pick a background, maybe a JS element???-->
 </form>
 <section>
 </section>

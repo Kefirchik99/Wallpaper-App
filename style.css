@@ -98,3 +98,16 @@ margin-top: 3px;
 #facthead {
     margin-bottom: 10px;
 }
+
+fieldset#what_color label[for="color_1"] {
+    color: green;
+}
+fieldset#what_color label[for="color_2"] {
+    color: rgb(4, 17, 206);
+}
+fieldset#what_color label[for="color_3"] {
+    color: rgb(131, 3, 143);
+}
+fieldset#what_color label[for="color_4"] {
+    color: rgb(204, 5, 5);
+}
