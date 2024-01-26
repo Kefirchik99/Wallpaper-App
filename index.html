@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -7,17 +7,16 @@
     <title>Wonders of space!</title>
 </head>
 <body>
+    <div class="main_container">
     <div class="first_part">
     <h1 class="the_top">Welcome to amazing space backgrounds!</h1>
-        <p>
-            <h3 class="underintro"><u>The place where you can pick out something nice for your desktop.</u></h3>
-        </p>
+        <h3 class="underintro"><u>The place where you can pick out something nice for your desktop.</u></h3>
     <p class="intro">Let's have a look at some of the most beautiful backgrounds out there!</p>
     </div>
     <p class="arrows_down">
-        <i class='far fa-arrow-alt-circle-down'style='font-size:36px'></i></i>
-        <i class='far fa-arrow-alt-circle-down'style='font-size:36px'></i></i>
-        <i class='far fa-arrow-alt-circle-down'style='font-size:36px'></i></i>
+        <i class='far fa-arrow-alt-circle-down'style='font-size:36px'></i>
+        <i class='far fa-arrow-alt-circle-down'style='font-size:36px'></i>
+        <i class='far fa-arrow-alt-circle-down'style='font-size:36px'></i>
     </p>  
     <hr>
     <div id="pictures">
@@ -56,7 +55,7 @@
             <li>Dont forget to subscribe to us here!</li>
             <!-- add a link and make here clickable -->
             <li>Check out some cool galaxy facts below!</li>
-
+<!--MAKE EVERYTHING ALIGN CENTER!!!-->
         </ul>
         </section>
         <hr class="bottomhr">
@@ -84,7 +83,7 @@
 <hr>
 
 <form id="galaxy_survey">
-    <h2>Galaxy Survey!</h2>  <!-- SET UP GOOGLE FORMS -->
+    <h2 id="survey_head">Galaxy Survey!</h2>  <!-- SET UP GOOGLE FORMS -->
     <p><h3>lets see what type of galaxies you are into!</h3></p>
  <fieldset id="purpose">
     <legend>What would you use the pictures for?</legend>
@@ -93,7 +92,7 @@
     <label for="choice3"><input id="choice3" type="radio"  name="for_what" />For a presentation</label>
     <label for="choice4"><input id="choice4" type="radio"  name="for_what" />Dont know yet</label>
  </fieldset>      
-<fieldset id="purpose">
+<fieldset id="type">
     <legend>What type of galaxy do you like the most?</legend>
     <label for="galaxy_type1"><input  type="radio" checked name="what_type" id="galaxy_type1"/>Spiral</label>
     <label for="galaxy_type2"><input  type="radio"  name="what_type" id="galaxy_type2"/>Elliptical</label>
@@ -107,15 +106,67 @@
     <label for="color_3"><input type="radio" name="color_type" id="color_3">Purplish</label>
     <label for="color_4"><input type="radio" name="color_type" id="color_4">Reddish</label>
 </fieldset>
-<fieldset>
-    <legend></legend>
-</fieldset>  
-
-
+<input type="submit" value="Submit" id="submit-1"/> 
 <!--create a form that will take in the types of galaxies and based on that will pick a background, maybe a JS element???-->
 </form>
-<section>
+<hr>
+
+<section id="gallery_1">
+    <legend id="gallery-legend"><h3>Check out our gallery!</h3></legend>
+    <div id="container-1">
+    <div class="gallery_grid">
+        <div class="gallery-item">
+            <img src="Pics/green-spiral-1.png" alt="green-spiral">
+        </div>
+        <div class="gallery-item">
+            <img src="Pics/green-ellip-1.png" alt="green-ellip">
+        </div>
+        <div class="gallery-item">
+            <img src="Pics/green-pec-1.png" alt="green-pec">
+        </div>
+        <div class="gallery-item">
+            <img src="Pics/green-irr-1.png" alt="green-irr">
+        </div>
+        <div class="gallery-item">
+            <img src="Pics/blue-spiral-1.png" alt="blue-spiral">
+        </div>
+        <div class="gallery-item">
+            <img src="Pics/blue-ellip-1.png" alt="blue-ellip">
+        </div>  
+        <div class="gallery-item">
+            <img src="Pics/blue-pec-1.png" alt="blue-pec">
+        </div>  
+        <div class="gallery-item">
+            <img src="Pics/blue-irr-1.png" alt="blue-irr">
+        </div>        
+        <div class="gallery-item">
+            <img src="Pics/purple-spiral-1.png" alt="purple-spiral">
+        </div>
+        <div class="gallery-item">
+            <img src="Pics/purple-ellip-1.png" alt="purple-ellip">
+        </div>  
+        <div class="gallery-item">
+            <img src="Pics/purple-pec-1.png" alt="purple-pec">
+        </div>  
+        <div class="gallery-item">
+            <img src="Pics/purple-irr-1.png" alt="purple-irr">
+        </div>
+        <div class="gallery-item">
+            <img src="Pics/red-spiral-1.png" alt="red-spiral">
+        </div>
+        <div class="gallery-item">
+            <img src="Pics/red-ellip-1.png" alt="red-ellip">
+        </div> 
+        <div class="gallery-item">
+            <img src="Pics/red-pec-1.png" alt="red-pec">
+        </div> 
+        <div class="gallery-item">
+            <img src="Pics/red-irr-1.png" alt="red-irr">
+        </div>                      
+    </div>
+    </div>
 </section>
+</div>
 </body>
 </html>
 

@@ -5,6 +5,15 @@ body {
     background-color: rgb(243, 240, 235);
     color: #034216;
 }
+
+
+.main_container {
+   /* max-width: 2200px; 
+    margin: 0 auto;  */
+    padding: 0 15px;  
+    text-align: center;
+}
+
 .first_part {
     position: relative;
     z-index: 1;
@@ -20,7 +29,7 @@ body {
     background-image: url('Pics/BackGrnd-2.png');
     background-size: cover;
     background-position: center;
-    opacity: 0.3; /* Adjust the opacity as needed */
+    opacity: 0.15; /* Adjust the opacity as needed */
     z-index: -1;
 }
 
@@ -98,6 +107,9 @@ margin-top: 3px;
 #facthead {
     margin-bottom: 10px;
 }
+#survey_head {
+    text-align: center;
+}
 
 fieldset#what_color label[for="color_1"] {
     color: green;
@@ -110,4 +122,45 @@ fieldset#what_color label[for="color_3"] {
 }
 fieldset#what_color label[for="color_4"] {
     color: rgb(204, 5, 5);
+}
+input[type="submit"] {
+    display: block;
+    width: 48%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    min-width: 300px;
+    background-color: rgb(124, 214, 192);
+    border-color: rgb(56, 13, 156);
+}
+
+#gallery-legend {
+    text-align: center;
+    
+}
+#container-1 {
+    max-width: 2200px; /* Or any other width you prefer */
+    margin: 0 auto; /* This centers the container */
+    padding: 0 10px;
+}
+.gallery_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+   
+}
+.gallery-item {
+    /* Styles for individual items */
+    width: 100%;
+    overflow: hidden;
+   
+}
+.gallery-item img {
+
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
