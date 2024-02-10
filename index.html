@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
+    <script src="wallpaper-app.js" defer></script>
     <title>Wonders of space!</title>
 </head>
 <body>
@@ -55,7 +56,7 @@
             <li>Dont forget to subscribe to us here!</li>
             <!-- add a link and make here clickable -->
             <li>Check out some cool galaxy facts below!</li>
-<!--MAKE EVERYTHING ALIGN CENTER!!!-->
+
         </ul>
         </section>
         <hr class="bottomhr">
@@ -81,8 +82,12 @@
 </p>
 </article>
 <hr>
+<section id="quiz-premice">
+    <legend id="quiz-legend"><h3>Take the quiz!</h3></legend>
+    <p>To find out what wallpaper suits you best, answer the simple questions and get a suggestion from our list!</p>
+</section>
 
-<form id="galaxy_survey"> <!-- SET UP GOOGLE FORMS AND ADD ACTION AND METHOD! -->
+<form id="galaxy_survey"> 
     <h2 id="survey_head">Galaxy Survey!</h2>  
     <p><h3><u>lets see what type of galaxies you are into!</u></h3></p>
  <fieldset id="purpose">
@@ -98,7 +103,7 @@
     <label for="galaxy_type2"><input  type="radio"  name="what_type" id="galaxy_type2"/>Elliptical</label>
     <label for="galaxy_type3"><input  type="radio"  name="what_type" id="galaxy_type3"/>Peculiar</label>
     <label for="galaxy_type4"><input  type="radio"  name="what_type" id="galaxy_type4"/>Irregular</label>
-</fieldset> <!--ADJUST BORDERS-->
+</fieldset> 
 <fieldset id="what_color">
     <legend>What color do you prefer?</legend>
     <label for="color_1"><input type="radio" name="color_type" id="color_1" checked>Greenish</label>
@@ -107,8 +112,12 @@
     <label for="color_4"><input type="radio" name="color_type" id="color_4">Reddish</label>
 </fieldset>
 <input type="submit" value="Submit" id="submit-1"/> 
-<!--create a form that will take in the types of galaxies and based on that will pick a background, maybe a JS element???-->
 </form>
+
+<section id="quiz-results">
+    <legend id="quiz-legend"><h3>The ideal image based on your answers is:</h3></legend>
+    <p id="quiz_results"></p>
+</section>
 <hr>
 
 <section id="gallery_1">
@@ -116,52 +125,52 @@
     <div id="container-1">
     <div class="gallery_grid">
         <div class="gallery-item">
-            <img src="Pics/green-spiral-1.png" alt="green-spiral">
+            <img src="Pics/green-spiral-1.png" id="green-spiral" alt="green-spiral">
         </div>
         <div class="gallery-item">
-            <img src="Pics/green-ellip-1.png" alt="green-ellip">
+            <img src="Pics/green-ellip-1.png" id="green-ellip" alt="green-ellip">
         </div>
         <div class="gallery-item">
-            <img src="Pics/green-pec-1.png" alt="green-pec">
+            <img src="Pics/green-pec-1.png" id="green-pec" alt="green-pec">
         </div>
         <div class="gallery-item">
-            <img src="Pics/green-irr-1.png" alt="green-irr">
+            <img src="Pics/green-irr-1.png" id="green-irr" alt="green-irr">
         </div>
         <div class="gallery-item">
-            <img src="Pics/blue-spiral-1.png" alt="blue-spiral">
+            <img src="Pics/blue-spiral-1.png" id="blue-spiral" alt="blue-spiral">
         </div>
         <div class="gallery-item">
-            <img src="Pics/blue-ellip-1.png" alt="blue-ellip">
+            <img src="Pics/blue-ellip-1.png" id="blue-ellip" alt="blue-ellip">
         </div>  
         <div class="gallery-item">
-            <img src="Pics/blue-pec-1.png" alt="blue-pec">
+            <img src="Pics/blue-pec-1.png" id="blue-pec" alt="blue-pec">
         </div>  
         <div class="gallery-item">
-            <img src="Pics/blue-irr-1.png" alt="blue-irr">
+            <img src="Pics/blue-irr-1.png" id="blue-irr" alt="blue-irr">
         </div>        
         <div class="gallery-item">
-            <img src="Pics/purple-spiral-1.png" alt="purple-spiral">
+            <img src="Pics/purple-spiral-1.png" id="purple-spiral" alt="purple-spiral">
         </div>
         <div class="gallery-item">
-            <img src="Pics/purple-ellip-1.png" alt="purple-ellip">
+            <img src="Pics/purple-ellip-1.png" id="purple-ellip" alt="purple-ellip">
         </div>  
         <div class="gallery-item">
-            <img src="Pics/purple-pec-1.png" alt="purple-pec">
+            <img src="Pics/purple-pec-1.png" id="purple-pec" alt="purple-pec">
         </div>  
         <div class="gallery-item">
-            <img src="Pics/purple-irr-1.png" alt="purple-irr">
+            <img src="Pics/purple-irr-1.png" id="purple-irr" alt="purple-irr">
         </div>
         <div class="gallery-item">
-            <img src="Pics/red-spiral-1.png" alt="red-spiral">
+            <img src="Pics/red-spiral-1.png" id="red-spiral" alt="red-spiral">
         </div>
         <div class="gallery-item">
-            <img src="Pics/red-ellip-1.png" alt="red-ellip">
+            <img src="Pics/red-ellip-1.png" id="red-ellip" alt="red-ellip">
         </div> 
         <div class="gallery-item">
-            <img src="Pics/red-pec-1.png" alt="red-pec">
+            <img src="Pics/red-pec-1.png" id="red-pec" alt="red-pec">
         </div> 
         <div class="gallery-item">
-            <img src="Pics/red-irr-1.png" alt="red-irr">
+            <img src="Pics/red-irr-1.png" id="red-irr" alt="red-irr">
         </div>                      
     </div>
     </div>
